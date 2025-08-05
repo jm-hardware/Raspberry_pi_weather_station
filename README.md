@@ -19,3 +19,38 @@ https://www.amazon.com/California-JOS-Carbon-Resistor-Tolerance/dp/B0BR67DJHM?so
 https://www.amazon.com/Reader-Adapter-Camera-Memory-Wansurs/dp/B0B9QZ4W4Y/ref=sr_1_3?crid=VMLPCPLQYSTR&dib=eyJ2IjoiMSJ9.OP-goGzbVTBErEAb5KAgGGzRtw14UDXQo5ROy8MlSRS1zyJ8z02kpuN0aVoMHRIMD-wF9xCi1DFAA4_OcvGwiHfSZc3l77KXUtrq_pqHDubQsPHzcnd_NAja2FdOrnq-3os86Vq1yaDZIQKWyeNT5mRfCt_HvcKxFRclCANeKHVWHQ7rXm0h1Ih6po2eTs9DfIP0T_HRZslYRQi5PLK_lHWGcTKHjUnWqTH6FPiSqPY.2C2t1jst5O5gjOoVlUdf3DEIk3wMEjVrxGKDUkl02y4&dib_tag=se&keywords=micro+sd+card+reader&qid=1752024497&sprefix=micro+sd+card+reade%2Caps%2C156&sr=8-3
 
 https://www.amazon.com/FREENOVE-Display-Compatible-Arduino-Raspberry/dp/B0B76YGDV4/ref=asc_df_B0B76YGDV4?mcid=5b3d33eb5f013221a14a01df057d30f7&hvocijid=13570803012831565115-B0B76YGDV4-&hvexpln=73&tag=hyprod-20&linkCode=df0&hvadid=721245378154&hvpos=&hvnetw=g&hvrand=13570803012831565115&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9191513&hvtargid=pla-2281435177858&th=1
+
+Software Requirements
+Python 3
+
+Adafruit_DHT library
+
+RPLCD library
+
+i2c-tools for testing I2C connection
+
+Installation Instructions
+
+sudo apt update
+sudo apt install python3-pip i2c-tools
+pip3 install Adafruit_DHT RPLCD
+ Wiring Guide
+Include a table or bullet list like:
+
+DHT11
+
+VCC → Pi 3.3V (Pin 1)
+
+DATA → Pi GPIO4 (Pin 7)
+
+GND → Pi GND (Pin 6)
+
+LCD
+
+SDA → Pi SDA (Pin 3)
+
+SCL → Pi SCL (Pin 5)
+
+VCC → Pi 5V (Pin 2)
+
+GND → Pi GND (Pin 9)
